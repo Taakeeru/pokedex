@@ -10,7 +10,34 @@
     <script src="script.js"></script>
 
 </head>
-<body>
+<body onload="loadPokemon()">
+    <header>
+        <h1>PokèDex</h1>
+        <button id="play-bg-music"></button>
+    </header>
+
+    <div class="pokedex" id="pokedex">
+
+        <div class="pokemon-cards" id="pokemon-cards">
+
+            <div class="card" id="card">
+                <div class="bg-div" id="bg-div"></div>
+                <div class="info-div" id="info-div">
+                    <div class="-mg">
+                        <div class="pokemon-img-div"><img id="pokemon-img" src="" alt=""></div>
+                        <h2 class="fh2">#001</h2>
+                        <h2 class="sh2">Glumanda</h2>
+                    </div>
+                    <div class="type-div flex-space-btw">
+                        <div>Fire</div>
+                        <div>Fire</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
     
 </body>
 </html>
